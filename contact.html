@@ -92,4 +92,27 @@
                   <div class="col-lg-12">
                     <fieldset>
                       <textarea name="message" class="form-control" id="message" placeholder="Mensaje" required></textarea>  
-         
+         <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+<df-messenger
+  project-id="agentebaseconocimiento"
+  agent-id="b3fb9386-c183-460e-9142-b92ccfd72326"
+  language-code="es"
+  max-query-length="-1">
+  <df-messenger-chat-bubble
+   chat-title="BOT-IntroduccionWEB">
+  </df-messenger-chat-bubble>
+</df-messenger>
+<style>
+  df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #0011ffb0;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-background: #bbbbbb;
+    --df-messenger-message-user-background: #ffffff;
+    --df-messenger-message-bot-background: #ffffff;
+    bottom: 16px;
+    right: 16px;
+  }
+</style>
